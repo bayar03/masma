@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Europe-regular';
+  src: url('../fonts/EuropeNormal.woff2') format('woff2'),
+    url('../fonts/EuropeNormal.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Europe-regitalic';
+  src: url('../fonts/EuropeItalic.woff2') format('woff2'),
+    url('../fonts/EuropeItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Europe-bolditalic';
+  src: url('../fonts/EuropeBoldItalic.woff2') format('woff2'),
+    url('../fonts/EuropeBoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Europe-bold';
+  src: url('../fonts/EuropeBold.woff2') format('woff2'),
+    url('../fonts/EuropeBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

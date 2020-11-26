@@ -1,0 +1,62 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-size: inherit;
+}
+
+a{  
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  cursor: pointer;
+  &:hover{
+    color: $yell;
+  }
+}
+input{
+  outline: none;
+}
+
+ul,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  @extend %eu-regular;
+  font-size: 14px;
+  line-height: 16px;  
+  color: #000;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+
+.container{
+  max-width: 1040px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page{
+  &__section{
+    margin-bottom: 60px;
+  }
+}
+  
+ 

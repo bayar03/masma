@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Europe';
+    src: url('EuropeNormal.woff2') format('woff2'),
+        url('EuropeNormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Europe';
+    src: url('EuropeItalic.woff2') format('woff2'),
+        url('EuropeItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Europe';
+    src: url('EuropeBoldItalic.woff2') format('woff2'),
+        url('EuropeBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Europe';
+    src: url('EuropeBold.woff2') format('woff2'),
+        url('EuropeBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
